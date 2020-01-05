@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle>
+    <drawing>
+        <grid unitdist="mm" unit="mm"/>
+        <layers>
+            <layer name="Top" color="4" number="1" visible="yes" active="yes" fill="1"/>
+            <layer name="Bottom" color="4" number="16" visible="yes" active="yes" fill="1"/>
+            <layer name="tPlace" color="7" number="21" visible="yes" active="yes" fill="1"/>
+            <layer name="bPlace" color="7" number="22" visible="yes" active="yes" fill="1"/>
+            <layer name="tNames" color="7" number="25" visible="yes" active="yes" fill="1"/>
+            <layer name="bNames" color="7" number="26" visible="yes" active="yes" fill="1"/>
+            <layer name="tValues" color="7" number="27" visible="yes" active="yes" fill="1"/>
+            <layer name="bValues" color="7" number="28" visible="yes" active="yes" fill="1"/>
+            <layer name="tStop" color="7" number="29" visible="yes" active="yes" fill="1"/>
+            <layer name="bStop" color="7" number="30" visible="yes" active="yes" fill="1"/>
+            <layer name="tCream" color="7" number="31" visible="yes" active="yes" fill="1"/>
+            <layer name="bCream" color="7" number="32" visible="yes" active="yes" fill="1"/>
+            <layer name="tKeepout" color="4" number="39" visible="yes" active="yes" fill="1"/>
+            <layer name="bKeepout" color="4" number="40" visible="yes" active="yes" fill="1"/>
+            <layer name="tRestrict" color="0" number="41" visible="yes" active="yes" fill="1"/>
+            <layer name="bRestrict" color="0" number="42" visible="yes" active="yes" fill="1"/>
+            <layer name="tDocu" color="7" number="51" visible="yes" active="yes" fill="1"/>
+            <layer name="bDocu" color="7" number="52" visible="yes" active="yes" fill="1"/>
+            <layer name="Nets" color="2" number="91" visible="yes" active="yes" fill="1"/>
+            <layer name="Busses" color="1" number="92" visible="yes" active="yes" fill="1"/>
+            <layer name="Pins" color="2" number="93" visible="yes" active="yes" fill="1"/>
+            <layer name="Symbols" color="4" number="94" visible="yes" active="yes" fill="1"/>
+            <layer name="Names" color="7" number="95" visible="yes" active="yes" fill="1"/>
+            <layer name="Values" color="7" number="96" visible="yes" active="yes" fill="1"/>
+            <layer name="Info" color="7" number="97" visible="yes" active="yes" fill="1"/>
+            <layer name="Guide" color="6" number="98" visible="yes" active="yes" fill="1"/>
+        </layers>
+        <library name="Upverter Library">
+            <description>Upverter Parts Library
+
+Created by Upverter.com</description>
+            <packages>
+                <package name="LINX_BAT-HLD-001-THM_0">
+                    <description>RETAINER BATT CR2025/2032 PC PIN</description>
+                    <wire layer="51" y2="7.5" width="0.15" x2="-10.55" y1="-8.0" x1="-10.55"/>
+                    <wire layer="51" y2="7.5" width="0.15" x2="10.55" y1="7.5" x1="-10.55"/>
+                    <wire layer="51" y2="-8.0" width="0.15" x2="10.55" y1="7.5" x1="10.55"/>
+                    <wire layer="51" y2="-8.0" width="0.15" x2="-10.55" y1="-8.0" x1="10.55"/>
+                    <wire layer="39" y2="9.0" width="0.1" x2="-11.65" y1="-9.0" x1="-11.65"/>
+                    <wire layer="39" y2="9.0" width="0.1" x2="11.65" y1="9.0" x1="-11.65"/>
+                    <wire layer="39" y2="-9.0" width="0.1" x2="11.65" y1="9.0" x1="11.65"/>
+                    <wire layer="39" y2="-9.0" width="0.1" x2="-11.65" y1="-9.0" x1="11.65"/>
+                    <wire layer="21" y2="4.0" width="0.15" x2="10.55" y1="7.5" x1="10.55"/>
+                    <wire layer="21" y2="3.99" width="0.15" x2="-10.555" y1="7.49" x1="-10.555"/>
+                    <wire layer="21" y2="-7.972" width="0.15" x2="-10.55" y1="-4.472" x1="-10.55"/>
+                    <wire layer="21" y2="-7.992" width="0.15" x2="10.558" y1="-4.492" x1="10.558"/>
+                    <wire layer="21" y2="7.5" width="0.15" x2="-10.55" y1="7.5" x1="-9.55"/>
+                    <wire layer="21" y2="-8.0" width="0.15" x2="-10.545" y1="-8.0" x1="-9.545"/>
+                    <wire layer="21" y2="-8.005" width="0.15" x2="9.545" y1="-8.005" x1="10.545"/>
+                    <wire layer="21" y2="7.513" width="0.15" x2="9.542" y1="7.513" x1="10.542"/>
+                    <text layer="25" align="bottom-left" y="9.275" x="-11.425" rot="R0" size="1.0">&gt;NAME</text>
+                    <pad diameter="2.3" name="2" shape="round" drill="1.0" y="1.5" x="-10.4" rot="R0"/>
+                    <pad diameter="2.3" name="2-2" shape="round" drill="1.0" y="-1.6" x="-10.4" rot="R0"/>
+                    <pad diameter="2.3" name="2-3" shape="round" drill="1.0" y="-1.6" x="10.4" rot="R0"/>
+                    <pad diameter="2.3" name="2-4" shape="round" drill="1.0" y="1.5" x="10.4" rot="R0"/>
+                    <smd layer="1" thermals="yes" name="1" stop="yes" roundness="100" dx="17.8" dy="17.8" y="0.0" x="0.0" rot="R0" cream="yes"/>
+                </package>
+            </packages>
+            <symbols>
+                <symbol name="LINX_BAT-HLD-001-THM_0_0">
+                    <description>RETAINER BATT CR2025/2032 PC PIN</description>
+                    <wire layer="94" y2="-2.54" width="0.508" x2="2.54" y1="-2.54" x1="7.62"/>
+                    <wire layer="94" y2="-4.064" width="0.508" x2="3.81" y1="-4.064" x1="6.35"/>
+                    <wire layer="94" y2="-5.842" width="0.508" x2="2.54" y1="-5.842" x1="7.62"/>
+                    <wire layer="94" y2="-7.62" width="0.508" x2="3.81" y1="-7.62" x1="6.35"/>
+                    <wire layer="94" y2="-2.54" width="0.15" x2="5.08" y1="-2.54" x1="5.08"/>
+                    <wire layer="94" y2="-7.62" width="0.15" x2="5.08" y1="-7.62" x1="5.08"/>
+                    <text layer="94" align="bottom-left" y="-0.508" x="7.62" rot="R270" size="2.54">+</text>
+                    <text layer="94" align="bottom-left" y="-10.16" x="8.89" rot="R180" size="2.54">-</text>
+                    <text layer="95" align="top-left" y="3.556" x="0.0" rot="R0" size="2.54">&gt;NAME</text>
+                    <text layer="95" align="top-left" y="-14.224" x="-2.54" rot="R0" size="2.54">BAT-HLD-001-THM</text>
+                    <text layer="95" align="top-left" y="-4.064" x="10.16" rot="R0" size="2.54">3V</text>
+                    <pin name="ANODE" visible="pad" length="middle" y="2.54" x="5.08" rot="R270"/>
+                    <pin name="CATHODE" visible="pad" length="middle" y="-12.7" x="5.08" rot="R90"/>
+                </symbol>
+            </symbols>
+            <devicesets>
+                <deviceset prefix="BT" name="LINX_BAT-HLD-001-THM">
+                    <description>RETAINER BATT CR2025/2032 PC PIN</description>
+                    <gates>
+                        <gate name="G$0" symbol="LINX_BAT-HLD-001-THM_0_0" x="0"/>
+                    </gates>
+                    <devices>
+                        <device name="LINX_BAT-HLD-001-THM_0_0" package="LINX_BAT-HLD-001-THM_0">
+                            <connects>
+                                <connect gate="G$0" pad="1" pin="CATHODE"/>
+                                <connect gate="G$0" pad="2-2 2-3 2 2-4" pin="ANODE"/>
+                            </connects>
+                            <technologies>
+                                <technology>
+                                    <attribute name="MPN" value="BAT-HLD-001-THM"/>
+                                    <attribute name="mouser_part_number" value="712-BAT-HLD-001-THM"/>
+                                    <attribute name="package" value="BT-HOLDER"/>
+                                    <attribute name="digikey_description" value="BATT RETAINER BATT CR2025/2032 PC PIN"/>
+                                    <attribute name="centroid_not_specified" value="No"/>
+                                    <attribute name="digikey_part_number" value="BAT-HLD-001-THM-ND"/>
+                                    <attribute name="lead_free" value="yes"/>
+                                    <attribute name="rohs" value="yes"/>
+                                    <attribute name="prefix" value="BT"/>
+                                    <attribute name="mfg_package_ident" value="BAT-HLD-001-THM"/>
+                                    <attribute name="MF" value="Linx"/>
+                                    <attribute name="voltage" value="3V"/>
+                                    <attribute name="datasheet" value="https://www.linxtechnologies.com/wp/wp-content/uploads/bat-hld-001-thm.pdf"/>
+                                </technology>
+                            </technologies>
+                        </device>
+                    </devices>
+                </deviceset>
+            </devicesets>
+        </library>
+    </drawing>
+</eagle>

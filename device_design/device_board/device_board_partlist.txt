@@ -1,0 +1,38 @@
+Partlist
+
+Exported from device_board_interrupt.brd at 06/12/2019 00:50
+
+EAGLE Version 7.7.0 Copyright (c) 1988-2016 CadSoft
+
+Assembly variant: 
+
+Part     Value                                        Package                Library                Position (mm)         Orientation
+
+ANT1     PRO-OB-512ONBOARD                            ONBOARD_SMD_2400       proant                 (50.8 17.78)          MR180
+BTH1     LINX_BAT-HLD-001-THMLINX_BAT-HLD-001-THM_0_0 LINX_BAT-HLD-001-THM_0 Linx - BAT-HLD-001-THM (15.24 11.43)         MR0
+C1       0.1uF                                        0603                   SparkFun-Capacitors    (21.59 71.12)         MR180
+C2       0.1uF                                        0603                   SparkFun-Capacitors    (36.83 60.96)         R270
+C3       0.1uF                                        0603                   SparkFun-Capacitors    (29.21 19.05)         R180
+C4       0.6pF                                        0402                   SparkFun-Capacitors    (53.34 7.62)          MR270
+C5       2.2pF                                        0402                   SparkFun-Capacitors    (51.376103125 10.183928125) MR0
+C6       0.7pF                                        0402                   SparkFun-Capacitors    (50.8 7.62)           MR270
+C7        0 OHM                                       0402                   SparkFun-Resistors     (50.8 12.7)           MR90
+C9       10nF                                         0603                   SparkFun-Capacitors    (12.7 60.96)          R0
+C10      0.1uF                                        0603                   SparkFun-Capacitors    (38.1 20.32)          R0
+C12      100pF                                        0603                   SparkFun-Capacitors    (20.32 64.77)         R270
+C13      0.1uF                                        0603                   SparkFun-Capacitors    (31.75 39.37)         R270
+C15      10uF                                         0603                   SparkFun-Capacitors    (29.21 16.51)         R180
+D1       VISHAY_TLMG1100-GS08VISHAY_TLMG1100-GS08_0_0 VISHAY_TLMG1100-GS08_0 Vishay - TLMG1100-GS08 (24.13 48.26)         MR0
+HALL1    TR-J_AH9246-W7                               TR-J_SC-59             Siguino                (15.24 64.77)         R0
+J1       FTDI Basic                                   1X06                   SparkFun-Connectors    (8.89 74.93)          MR180
+J2                                                    1X12                   SparkFun-Connectors    (6.35 44.45)          MR90
+J3                                                    1X03                   SparkFun-Connectors    (26.67 74.93)         MR180
+Q1       MOSFET P-CH 20V 5.3A SOT-23                  SOT23-3                SparkFun-DiscreteSemi  (29.21 12.7)          R180
+R1       330                                          0603                   SparkFun-Resistors     (25.4 50.8)           R0
+R4       10k                                          0603                   SparkFun-Resistors     (34.29 68.58)         R90
+R5       100k                                         0603                   SparkFun-Resistors     (27.94 39.37)         R270
+R6       10k                                          0603                   SparkFun-Resistors     (29.21 72.39)         R0
+R7       10k                                          0603                   SparkFun-Resistors     (30.48 68.58)         R0
+SIG1                                                  WISOL_WSSFM10          Siguino                (41.91 44.45)         R270
+U1       ATMEGA328P-AU                                QFP80P900X900X120-32N  ATMEGA328P-AU          (27.94 59.69)         R0
+Y1       8MHz                                         RESONATOR-SMD-3.2X1.3  SparkFun-Clocks        (17.78 57.15)         R270

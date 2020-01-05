@@ -1,0 +1,11 @@
+﻿"Part";"Value";"Device";"Package";"Description";"DESCRIPTION";"DIGI-KEY_PART_NUMBER";"DIGI-KEY_PURCHASE_URL";"MF";"MP";"PACKAGE";"PROD_ID";"SF_ID";"VALUE";
+"C7";" 0 OHM";"RESISTOR0402";"0402";"Generic Resistor Package";"";"";"";"";"";"";" ";"";" ";
+"R1";"330";"330OHM-0603-1/10W-1%";"0603";"330Ω resistor";"";"";"";"";"";"";"RES-00818";"";"330";
+"R3";"1k";"1KOHM-0603-1/10W-1%";"0603";"1kΩ resistor";"";"";"";"";"";"";"RES-07856";"";"1k";
+"R4";"10k";"10KOHM-0603-1/10W-1%";"0603";"10kΩ resistor";"";"";"";"";"";"";"RES-00824";"";"10k";
+"R5";"100k";"100KOHM-0603-1/10W-1%";"0603";"100kΩ resistor";"";"";"";"";"";"";"RES-07828";"";"100k";
+"R6";"10k";"10KOHM-0603-1/10W-1%";"0603";"10kΩ resistor";"";"";"";"";"";"";"RES-00824";"";"10k";
+"R7";"10k";"10KOHM-0603-1/10W-1%";"0603";"10kΩ resistor";"";"";"";"";"";"";"RES-00824";"";"10k";
+"SIG1";"";"WISOL_WSSFM10HANDSOLDER";"WISOL_WSSFM10";"WiSOL WSSFM10 Sigfox Module with PCB Footprint to enable handsolder";"";"";"";"";"";"";"";"";"";
+"U1";"ATMEGA328P_TQFP";"ATMEGA328P_TQFP";"TQFP32-08";"Popular 328P in QFP";"";"";"";"";"";"";"IC-09069";"";"ATMEGA328P_TQFP";
+"Y1";"8MHz";"RESONATOR-8MHZSMD_3.2X1.3";"RESONATOR-SMD-3.2X1.3";"8MHz Resonator";"";"";"";"";"";"";"XTAL-08895";"";"8MHz";
